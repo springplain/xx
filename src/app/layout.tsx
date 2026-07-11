@@ -3,7 +3,15 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
 import Script from "next/script";
-
+return (
+  <html lang="en" className={`${jost.variable}`}>
+    <head>
+      {/* PartnerBoost 网站所有权验证标签 */}
+      <meta name="partnerboostverifycode" content="32dc01246facccb7f5b3cad5016dd5033" />
+      <Script
+        crossOrigin="anonymous"
+      />
+    </head>
 const jost = Jost({
   variable: "--font-jost",
   subsets: ["latin"],
