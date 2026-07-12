@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "Discover the latest fashion trends with DSOS. Shop the new collection of clothing, footwear, accessories, beauty products and more. Order today from DSOS.",
   other: {
     partnerboostverifycode: "32dc01246faccb7f5b3cad5016dd5033",
+    "verify-yeahpromos": "db115f8d777a",
   },
 };
 
